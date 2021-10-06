@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+/* NAVIGATION PART STARTS HERE */
+header{
+    background: rgb(255, 255, 255);
+   
+    width: 100%;
+    z-index: 999;
+    box-shadow: 1px 5px 4px #ddd;
+}
+.menu ul {
+    display: flex;
+}
+.menu ul li span {
+    color: #005e7e; 
+    padding-left: 20px;
+}
+.menu ul li {
+    padding-left: 40px;
+}
+.menu ul li a {
+    color: #005e7e;
+    font-size: 18px;
+}
+.menu ul li a:hover{
+    color: rgb(246, 237, 116);
+}
+.about-left p {
+    text-align: justify;
+    padding-right: 40px;
+}
+.para1 {
+    padding-bottom: 15px;
+}
+.about-left h2 {
+    padding: 40px 0px;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-right img{
+    padding: 40px 0px;
+    pa
+}
+.about-right p{
+    text-align: justify;
+    padding-left: 54px;
+    font: 18px;
+}
+.car {
+ margin-left: -153px;
+ padding-top: 74px;
+}
+.arrow {
+    margin-left: -46px;
+    padding-top: 36px;
+   }
+
+footer {
+    background: tomato;
+    padding: 10px;
+}
+
+
+
+
+    
